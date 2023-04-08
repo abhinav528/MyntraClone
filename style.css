@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+html,body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .left img{
+    width: 32px;
+    height: 23px;
+    
+  }
+
+  header{
+    top: 0;
+    position: sticky;
+    background: white;
+    height: 122px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  .container{
+    padding: 0 10vw; 
+  }
+  .containerHeader{
+    padding: 0 10vw; 
+  }
+  
+  nav ul li{
+    list-style: none;
+    padding: 0 12px;
+  }
+
+  .section1{
+    background-color: #ebe4e4;
+    
+  }
+
+  .search{
+    width: 30vw;
+    padding: 7px 17px;
+    border: 0.5px solid grey;
+    border-radius: 5px;
+    background: #fbf8f8;
+}
+
+.homeImg{
+  width: 80vw;
+  margin: 12px 0;
+}
+
+.my-2{
+  text-align: center;
+  padding: 23px;
+  
+}   
+
+.rightBox{
+  display: flex;
+  margin: 12px;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1500px) {
+  header{
+    height: 122px;
+  }
+
+  .rightBox{
+    display: flex;
+    margin: 12px;
+  }
+.right{
+  flex-direction: column;
+}
+nav{
+  flex-direction: column;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  padding: 0 4px;
+  font-size: 10px;
+}
+.containerHeader {
+  padding: 0px 2vw;
+}
+
+}
+
+
+  
